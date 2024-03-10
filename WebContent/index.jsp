@@ -7,14 +7,13 @@
 <title>J2EE Exam</title>
 </head>
 <body>
-	<div style="text-align: center">
-		<h2>
-			Welcome to our J2EE Exam<br> <br>
-		</h2>
-		<h3>
-			<a href="about.ctc">Click here to See About Page... </a>
-		</h3>
-	</div>
-
+    <h1>Timesheet Tracking</h1>
+    <form action="<%=request.getContextPath()%>/checkin.ctc" method="post">
+        <input type="submit" value="Check-in">
+    </form>
+    <form action="checkout" method="post">
+        <input type="submit" value="Check-out">
+    </form>
+    
 </body>
 </html>

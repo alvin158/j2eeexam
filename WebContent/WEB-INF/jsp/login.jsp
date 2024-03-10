@@ -35,12 +35,12 @@
 
     <div class="container">
 
-      <form class="login-form" action="<%=request.getContextPath()%>/index.html">        
+      <form class="login-form" action="<%=request.getContextPath()%>/index.ctc">        
         <div class="login-wrap">
             <p class="login-img"><i class="icon_lock_alt"></i></p>
             <div class="input-group">
               <span class="input-group-addon"><i class="icon_profile"></i></span>
-              <input type="text" class="form-control" placeholder="Username" autofocus>
+              <input type="text" name="username" class="form-control" placeholder="Username" autofocus>
             </div>
             <div class="input-group">
                 <span class="input-group-addon"><i class="icon_key_alt"></i></span>
